@@ -1,0 +1,68 @@
+body{
+    box-sizing: border-box;
+    background-color: black;
+    font-family: 'Roboto Serif', serif;
+}
+
+.post{
+    background-color: white;
+    width: 600px;
+    height: auto;
+    margin: auto;
+}
+
+.post-header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.html5{
+    width: 5%;
+    font-size: 30px;
+    margin-left: 15px;
+    padding-right: 0;
+}
+
+.post-header-title{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    font-size: 12px;
+}
+
+.post-header-title h3,.post-header-title p{
+    margin: 0 0 10px 5px;
+}
+
+.menu{
+    font-size: 40px;
+    float: right;
+}
+
+.post-image img{
+    width: 100%;
+    height: auto;
+}
+
+.post-message{
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+
+.iconos{
+    font-size: 30px;
+    margin-top: 8px;
+    margin-left: 5px;
+}
+
+i{
+    padding-right: 10px;
+
+}
+
+.guardar{
+    float: right;
+    margin-right: 10px;
+}
